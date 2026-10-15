@@ -1,6 +1,6 @@
 # Generating and updating `pkgstats` data.
 Mark Padgham
-2026-10-09
+2026-10-15
 
 The `pkgstats` package is also intended to compare the statistics of an
 R package to equivalent statistics from all R packages that are, or ever
@@ -73,7 +73,7 @@ The `pkgstats_update()` function will automatically upload data to the
 release](https://github.com/ropensci-review-tools/pkgstats/releases/tag/v0.1.6).
 The `pkgstats_from_archive()` returns the data without uploading, so you
 then have to do that manually – either via
-[`piggyyback`](https://docs.ropensci.org/piggyback), or through the
+[`piggyyback`](https://docs.ropensci.org/piggyback/), or through the
 GitHub website.
 
 </div>
